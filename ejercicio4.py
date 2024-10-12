@@ -1,0 +1,13 @@
+N1 = input('Cual es el valor del número 1: ')
+N1 = int(N1)
+N2 = input('Cual es el valor del número 2: ')
+N2 = int(N2)
+suma = (N1 + N2)
+resta = (N1 - N2)
+division = (N1 / N2)
+multiplicacion = (N1 * N2)
+print("La suma de los números es:",suma)
+print("La resta de los números es:",resta)
+print("La división de los números es:",division)
+print("La multiplicación de los números es:",multiplicacion)
+
