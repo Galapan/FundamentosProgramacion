@@ -1,0 +1,13 @@
+C1 = input('Ingresa la calificación 1: ')
+C1 = int(C1)
+C2 = input('Ingresa la calificación 2: ')
+C2 = int(C2)
+C3 = input('Ingresa la calificación 3: ')
+C3 = int(C3)
+EF = input('Ingresa la calificación del examen final: ')
+EF = int(EF)
+TF = input('Ingresa la calificación trabajo final: ')
+TF = int(TF)
+PC = (C1+C2+C3)/3
+CF = (PC*0.55)+(EF*0.30)+(TF*0.15)
+print("La calificación final es de:",CF)
